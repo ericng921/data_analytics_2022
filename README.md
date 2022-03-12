@@ -15,7 +15,9 @@ In terms of refactoring code, we are not changing the code or adding new functio
 The daily volume of each stock for the year was added up and put it under "Total Daily Volume"; also, I subtracted the starting price by the ending price of each stock for the year, and then minus 1 to get the return of each stock in percentage. In addition, having conditional formatting for the result that allows user to visualize easily the difference between the stocks.
 
 
-!(/assets/images/VBA_Challenge_2017.png) !(/assets/images/VBA_Challenge_2018.png)
+![VBA_Challenge_2017](https://user-images.githubusercontent.com/100378319/158005074-0153c1cc-985b-4126-86e1-62cb21701e52.png)
+![VBA_Challenge_2018](https://user-images.githubusercontent.com/100378319/158005081-9119935c-dd9e-4e29-9230-26933b2609d2.png)
+
 
 Based on the result as the pictures shown, in 2017 there is only one stock, TERP, having negative return -7.2%. All of the other stocks are having positive return with the range from 5.5% to 199.4%. Especially "DQ" is doing phenomenal in year of 2017, it got nearly 200% for return.
 
