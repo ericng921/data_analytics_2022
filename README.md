@@ -49,10 +49,10 @@ The reason the run time is much faster from refactoring code is because we used 
 ### Pro and cons apply to refactoring code
 
 - Pros
-  
-  1. The structure of code looks easier to read and simple without the nested loop, it is better user experience for future user whoever read the code, or easier for anyone to understand the code.
+ 
+1. The structure of code looks easier to read and simple without the nested loop, it is better user experience for future user whoever read the code, or easier for anyone to understand the code.
 
-  2. Time efficient. Refactored VBA script gets a faster result than original. It's just about 0.6-0.7 seconds faster but if it would be a huge difference for a bigger project.
+2. Time efficient. Refactored VBA script gets a faster result than original. It's just about 0.6-0.7 seconds faster but if it would be a huge difference for a bigger project.
 
 - Cons
 
