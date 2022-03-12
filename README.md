@@ -20,7 +20,7 @@ In 2018, there are only two stocks, ENPH and RUN, having positive return, 81.9% 
 
 Comparing 2017 and 2018, the stock performance in 2017 is much better than 2018.
 
-The execution times of the original script for 2017 and 2018 year took 1.046875 and 0.953125 seconds and the refactoring code for 2017 and 2018 year took 0.1523438 and 0.1679688 seconds, which were 0.8945312 and 0.7851562 seconds quicker than the original code. In general, the refactoring code is 0.75 to 0.90 faster than the original code. It looks like a small number but for a bigger project there is a huge difference.
+The execution times of the original script for 2017 and 2018 year took 1.365112 and 1.456055 seconds and the refactoring code for 2017 and 2018 year took 0.1523438 and 0.1679688 seconds, which were 1.2127682 and 1.2880862 seconds quicker than the original code. In general, the refactoring code is around 1.2 seconds faster than the original code. It looks like a small number but for a bigger project there is a huge difference.
 
 **Original code**
 
