@@ -14,16 +14,13 @@ In terms of refactoring code, we are not changing the code or adding new functio
 
 The daily volume of each stock for the year was added up and put it under "Total Daily Volume"; also, I subtracted the starting price by the ending price of each stock for the year, and then minus 1 to get the return of each stock in percentage. In addition, having conditional formatting for the result that allows user to visualize easily the difference between the stocks.
 
-
-![VBA_Challenge_2017](https://user-images.githubusercontent.com/100378319/158005074-0153c1cc-985b-4126-86e1-62cb21701e52.png)
-![VBA_Challenge_2018](https://user-images.githubusercontent.com/100378319/158005081-9119935c-dd9e-4e29-9230-26933b2609d2.png)
-
-
 Based on the result as the pictures shown, in 2017 there is only one stock, TERP, having negative return -7.2%. All of the other stocks are having positive return with the range from 5.5% to 199.4%. Especially "DQ" is doing phenomenal in year of 2017, it got nearly 200% for return.
 
 In 2018, there are only two stocks, ENPH and RUN, having positive return, 81.9% and 84.0%. The rest of the stocks are in negative return and "DQ", the stock with the highest return in 2017, also dropped 62% in year 2018.
 
 Comparing 2017 and 2018, the stock performance in 2017 is much better than 2018.
+![VBA_Challenge_2017](https://user-images.githubusercontent.com/100378319/158005074-0153c1cc-985b-4126-86e1-62cb21701e52.png)
+![VBA_Challenge_2018](https://user-images.githubusercontent.com/100378319/158005081-9119935c-dd9e-4e29-9230-26933b2609d2.png)
 
 The execution times of the original script for 2017 and 2018 year took 1.046875 and 0.953125 seconds and the refactoring code for 2017 and 2018 year took 0.1523438 and 0.1679688 seconds, which were 0.8945312 and 0.7851562 seconds quicker than the original code. In general, the refactoring code is 0.75 to 0.90 faster than the original code. It looks like a small number but for a bigger project there is a huge difference.
 
