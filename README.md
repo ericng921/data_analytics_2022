@@ -20,7 +20,7 @@ In 2018, there are only two stocks, ENPH and RUN, having positive return, 81.9% 
 
 Comparing 2017 and 2018, the stock performance in 2017 is much better than 2018.
 
-The execution times of the original script for 2017 and 2018 year took 1.365112 and 1.456055 seconds and the refactoring code for 2017 and 2018 year took 0.1523438 and 0.1679688 seconds, which were 1.2127682 and 1.2880862 seconds quicker than the original code. In general, the refactoring code is around 1.2 seconds faster than the original code. It looks like a small number but for a bigger project there is a huge difference.
+As below picture shown, the execution times of the original script for 2017 and 2018 year took 1.365112 and 1.456055 seconds and the refactoring code for 2017 and 2018 year took 0.1523438 and 0.1679688 seconds, which were 1.2127682 and 1.2880862 seconds quicker than the original code. In general, the refactoring code is around 1.2 seconds faster than the original code. It looks like a small number but for a bigger project there is a huge difference.
 
 **Original code**
 
@@ -32,7 +32,10 @@ The execution times of the original script for 2017 and 2018 year took 1.365112 
 ![VBA_Challenge_2017](https://user-images.githubusercontent.com/100378319/158005074-0153c1cc-985b-4126-86e1-62cb21701e52.png)
 ![VBA_Challenge_2018](https://user-images.githubusercontent.com/100378319/158005081-9119935c-dd9e-4e29-9230-26933b2609d2.png)
 
-The reason the run time is much faster from refactoring code is because we used array method to store 3 important outputs: tickerVolume, tickerStartingPrice, and tickerEndingPrice that allows VBA to read the 3013 rows only once instead of going through all the 3013 rows 12 times in the nested loop from the original code.
+As below picture shown, the reason the run time is much faster from refactoring code is because we used array method to store 3 important outputs: tickerVolume, tickerStartingPrice, and tickerEndingPrice that allows VBA to read the 3013 rows only once instead of going through all the 3013 rows 12 times in the nested loop from the original code.
+
+![VBA_code](https://user-images.githubusercontent.com/100378319/158005428-6e6344d0-724f-470b-8861-e950a20f0123.png)
+
 
 ## Summary
 
