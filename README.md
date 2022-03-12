@@ -23,10 +23,12 @@ Comparing 2017 and 2018, the stock performance in 2017 is much better than 2018.
 The execution times of the original script for 2017 and 2018 year took 1.046875 and 0.953125 seconds and the refactoring code for 2017 and 2018 year took 0.1523438 and 0.1679688 seconds, which were 0.8945312 and 0.7851562 seconds quicker than the original code. In general, the refactoring code is 0.75 to 0.90 faster than the original code. It looks like a small number but for a bigger project there is a huge difference.
 
 **Original code**
+
 ![VBA_original_2017](https://user-images.githubusercontent.com/100378319/158005245-f208c452-8036-44ae-91b1-24583bfb0f33.png)
 ![VBA_original_2018](https://user-images.githubusercontent.com/100378319/158005247-717180cd-0cdd-4ea4-9936-8cb275b7183b.png)
 
 **Refactoring code**
+
 ![VBA_Challenge_2017](https://user-images.githubusercontent.com/100378319/158005074-0153c1cc-985b-4126-86e1-62cb21701e52.png)
 ![VBA_Challenge_2018](https://user-images.githubusercontent.com/100378319/158005081-9119935c-dd9e-4e29-9230-26933b2609d2.png)
 
